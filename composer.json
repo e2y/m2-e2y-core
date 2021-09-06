@@ -1,0 +1,22 @@
+{
+    "name": "e2y/module-core",
+    "description": "e2y configuration tab for Magento 2",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "e2y",
+            "email": "info@e2ycommerce.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "E2Y\\Core\\": "src/"
+        }
+    }
+}
